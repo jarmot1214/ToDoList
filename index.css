@@ -1,0 +1,139 @@
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width:13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(134, 134, 134);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color:rgba(255, 255, 255, 0.8);
+}
+
+body {
+  background-Color:rgb(52, 73, 94);
+  color:white;
+}
+
+h3 {
+  margin:0px;
+}
+
+button {
+  margin-right:10px;
+  float:left;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  font-size: 20px;
+}
+
+ul {
+  margin-top: 30px;
+  padding: 0px;
+  height: 225px;
+  overflow: auto;
+}
+
+input {
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+button {
+  color:white;
+  background: none;
+  border:none;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
+  outline: none;
+}
+
+.form_greeting input {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.form_todo input {
+  font-size: 20px;
+}
+
+.nav{
+  text-align:right;
+  margin:20px;
+  font-size:20px;
+}
+
+.form_todo {
+  margin-top: 20px;
+}
+
+.div_clock_js {
+  font-size: 10em;
+}
+
+.main {
+  text-align:center;
+  margin:150px;
+}
+
+.main_todo {
+  text-align: center;
+  width: 350px;
+  margin:auto;
+}
+
+.h1_greeting {
+  margin-top:0px;
+  margin-bottom: 30px;
+}
+
+.form_greeting,
+.h1_greeting {
+  display:none;
+}
+
+.showing {
+  display:block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}
